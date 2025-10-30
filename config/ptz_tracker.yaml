@@ -1,0 +1,12 @@
+ptz_tracker:
+  ros__parameters:
+    detection_topic: /person_detector_node/detection_array
+    image_topic: /robot/top_ptz_rgbd_camera/color/image_raw
+    pan_joint: robot_top_ptz_camera_pan_joint
+    tilt_joint: robot_top_ptz_camera_tilt_joint
+    zoom_joint: robot_top_ptz_camera_zoom_color_joint
+    follow_action: /robot/joint_trajectory_controller/follow_joint_trajectory
+    use_sim_time: true
+    detection_timeout: 5.0
+    kp_pan: 0.2
+    kp_tilt: 0.1

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ptz_tracker</name>
+  <version>0.1.0</version>
+  <description>PTZ tracker action server.</description>
+  <maintainer email="rnavarro@robotnik.es">rnavarro</maintainer>
+  <license>BSD</license>
+
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>control_msgs</exec_depend>
+  <exec_depend>trajectory_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>vision_msgs</exec_depend>
+  <exec_depend>action_msgs</exec_depend>
+  <exec_depend>ptz_tracker_interfaces</exec_depend>
+
+   <export>
+    <build_type>ament_python</build_type>
+   </export>
+</package>

@@ -1,0 +1,54 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Environments
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging / distribution
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+wheels/
+share/python-wheels/
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Caches / tooling
+.cache/
+.mypy_cache/
+.pytest_cache/
+.tox/
+.ruff_cache/
+.coverage
+coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Virtualenv leftovers
+pythonenv*
+
+# IDE helpers
+.idea/
+*.vscode/

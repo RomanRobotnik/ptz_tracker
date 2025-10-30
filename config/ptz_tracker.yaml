@@ -1,6 +1,6 @@
 ptz_tracker:
   ros__parameters:
-    detection_topic: /person_detector_node/detection_array
+    detection_topic: /person_detector/detection_array
     image_topic: /robot/top_ptz_rgbd_camera/color/image_raw
     pan_joint: robot_top_ptz_camera_pan_joint
     tilt_joint: robot_top_ptz_camera_tilt_joint
